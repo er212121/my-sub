@@ -1,0 +1,15 @@
+addSubDomain({
+  description: 'this is try to build better connection',
+  domain: 'is-an.app'
+  subdomain: 'bestbuild',
+  owner: {
+    repo: '<https://URL/to/the/repository/with/your/project/sources/if/it/is/public>',
+    email: 'er.21.21.21@gmail.com',
+  },
+  record: {
+    CNAME: '<cname-domain>', // e.g.: <your-github-account>.github.io
+    TXT: ['list', 'of', 'required', 'txt', 'records'],
+    A: ['list', 'of', 'IPv4', 'addresses', 'like', 'a', '127.0.0.1'],
+    AAAA: ['list', 'of', 'IPv6', 'addresses', 'like', 'a', '::1'],
+    NS: ['list', 'of', 'nameservers'],
+  },
